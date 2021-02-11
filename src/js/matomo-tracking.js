@@ -10,6 +10,8 @@ var _paq = _paq || [];
 _paq.push(['disableCookies']);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
+// accurately measure the time spent in the visit
+_paq.push(['enableHeartBeatTimer']);
 (function() {
   _paq.push(['setTrackerUrl', `${matomoUrl}/piwik.php`]);
   _paq.push(['setSiteId', matomoSiteId]);
